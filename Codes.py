@@ -10,9 +10,9 @@ from statsmodels.tsa.stattools import adfuller, acf, pacf, kpss
 
 #Load Data and Clean It
 
-cdf = pd.read_csv(r'c:\users\ag\desktop\sudan\money.csv')
+cdf = pd.read_csv(r'...\money.csv')
 cdf = cdf.drop(columns = 'Unnamed: 0')
-cdf2 = pd.read_csv(r'c:\users\ag\desktop\sudan\inflation.csv')
+cdf2 = pd.read_csv(r'...\inflation.csv')
 cdf2 = cdf2.drop(columns = 'Unnamed: 0')
 
 # Check for na and null
